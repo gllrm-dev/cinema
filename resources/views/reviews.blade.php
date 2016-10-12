@@ -1,4 +1,4 @@
-@extends('principal')
+@extends('layouts.principal')
 @section('content')
 <div class="review-content">
 	<div class="top-header span_top">

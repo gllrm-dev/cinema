@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class FrontController extends Controller {
+class UsuarioController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -14,7 +14,7 @@ class FrontController extends Controller {
 	 */
 	public function index()
 	{
-		return view('index');
+		//
 	}
 
 	/**
@@ -22,9 +22,9 @@ class FrontController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function contact()
+	public function create()
 	{
-		return view('contact');
+		return view('usuario.create');
 	}
 
 	/**
@@ -32,9 +32,9 @@ class FrontController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function reviews()
+	public function store()
 	{
-		return view('reviews');
+		//
 	}
 
 	/**
@@ -43,9 +43,9 @@ class FrontController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function admin()
+	public function show($id)
 	{
-		return view('admin/index');
+		//
 	}
 
 	/**
